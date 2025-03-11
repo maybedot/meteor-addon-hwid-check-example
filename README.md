@@ -2,8 +2,6 @@
 
 Improved template of meteor client addon with HWID check for authorization.
 
-Original repo: https://github.com/MeteorDevelopment/meteor-addon-template
-
 ### How it working?
 - Before launching Minecraft, the addon checks the person's HWID and adds and makes an MD5 hash out of it, after which it checks its presence on a specific website where, logically, the HWIDs of authorized users should be stored.
 
